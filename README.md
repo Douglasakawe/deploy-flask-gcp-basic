@@ -3,20 +3,20 @@
 ~ Passos Realizados:
 
 1. Dentro do Projeto configurar as Permissões de IAM
-  - compute.instances*
-  - compute.firewalls*
+    - compute.instances*
+    - compute.firewalls*
     
 2. Ativar a API
-  - API Compute Engine
+    - API Compute Engine
     
 3. Acessar o Cloud Shell do Projeto
 
 4. Criação do Diretorio 'tf-tutorial'
-  - Dentro dele criar o arquivo main.tf
-  - Adicionar os parametros para criar rede e a sub-rede de nuvem privada
-  - Serviços:
-  - google_compute_network
-  - google_compute_subnetwork
+    - Dentro dele criar o arquivo main.tf
+    - Adicionar os parametros para criar rede e a sub-rede de nuvem privada
+    - Serviços:
+    - google_compute_network
+    - google_compute_subnetwork
 
 5. Criando recurso de VM do Compute Engine
    - No arquivo main.tf adicionar os parametros para criar a VM
